@@ -1,0 +1,7 @@
+- Do commnets in the code.
+- Change the table, make one column for action and column for state.
+- Save the agent.
+- Episode number.
+- add sample inside init.
+- Define the MAX_epislon and MIN_Epis amd LAMBDA insode the class
+
