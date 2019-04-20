@@ -200,7 +200,7 @@ def run(agent, env, train = True):
 
 
     while True:     
-        if !train:
+        if train == False:
             env.render()
 
 
@@ -222,13 +222,14 @@ def run(agent, env, train = True):
         R += r
 
         if done:
-            env.close()
+            #env.close()
             return R,episode_length_counter
         
         
 ###################################################################################################
 
 # Helper tools
+
 
 # Metrics
 
